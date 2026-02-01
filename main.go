@@ -1,7 +1,7 @@
 package main
 
 import (
-	testpackage "github.com/Thitipong-PP/Go-example/test_package" // Package name testpackage
+	testpackage "github.com/Thitipong-PP/Go-example/test_package"
 
 	"github.com/google/uuid"
 )
