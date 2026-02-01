@@ -5,7 +5,8 @@ This is new programming language for me. If have something wrong :]
 - Run main file : ``` go run main.go ```
 - Build main file : ``` go build main.go ```
 - Module init : ``` go mod init <github.com/user/projectName> ```
-- Import package ``` go get <package> ```
+- Import package : ``` go get <package> ```
+- Show all package : ``` go list -m all ```
 
 ### Other knowledge
 - <a href="https://go.dev">Go Website</a>
