@@ -1,13 +1,12 @@
 package main
 
 import (
-	"fmt"
+	testpackage "github.com/Thitipong-PP/Go-example/test_package" // Package name testpackage
 
 	"github.com/google/uuid"
 )
 
 func main () {
-	print("Hello\n")
-	fmt.Println("Thitipong Phuangphet")
-	fmt.Println(uuid.New().String())
+	testpackage.Say("Hello Guy, It me Thitipong Phuangphet")
+	testpackage.Say(uuid.NewString())
 }
