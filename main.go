@@ -51,7 +51,7 @@ func main () {
 	arr[1] = 9
 	arr[2] = 7
 
-	var sld []int;
+	var sld []int
 
 	sld = arr[:]
 	sld = append(sld, 8)
