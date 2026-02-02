@@ -7,7 +7,7 @@ import (
 )
 
 func main () {
-	var fullName string = "Thitipong"
+	const fullName string = "Thitipong"
 	var age int = 1000
 
 	var lastName = "Phuangphet"
