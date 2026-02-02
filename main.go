@@ -21,4 +21,26 @@ func main () {
 	println((age + io + t))
 	// testpackage.Say("Hello Guy, It me Thitipong Phuangphet")
 	testpackage.Say(uuid.NewString())
+
+	// For loop
+	// for i:=0; i<10; i++ {
+	// 	println(i)
+	// }
+
+	// While loop
+	// i := 0
+	// for i<10 {
+	// 	println(i)
+	// 	i++;
+	// }
+
+	// Do-While loop
+	i := 0
+	for {
+		println(i)
+		i++;
+		if i >= 10 {
+			break
+		}
+	}
 }
